@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>List - Prorogue</title>
+		<link href="/style/prorogue.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class='menu'>
+			<ul>
+				<li><a class='add' href='/add'>Add</a></li>
+			</ul>
+		</div>
+		
+		<?py for item in items: ?>
+			<a href="#{item.url}">#{item.url}</a><br/>
+		<?py #endfor ?>
+	</body>
+</html>

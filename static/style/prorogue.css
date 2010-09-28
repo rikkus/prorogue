@@ -1,0 +1,158 @@
+body {
+	margin: 1em;
+	background-color: white;
+	font-family: sans-serif;
+	padding: 0;
+	background: url('http://code.google.com/appengine/images/appengine-noborder-120x30.gif') bottom right no-repeat;
+}
+
+pre {
+	font-family: Monaco, Consolas, "Andale Mono", "Neep Alt", Neep, monospace;
+}
+
+.content {
+	margin-right: 50px;
+}
+
+.menu {
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background-color: #eef;
+	width: 5em;
+	position: absolute;
+	margin: 0;
+	padding: 8px;
+	top: 0;
+	right: 0;
+}
+
+.menu ul {
+	margin: 0;
+	margin-left: 0.2em;
+	padding: 0;
+}
+
+.menu ul li {
+	list-style: none;
+	margin-bottom: 0.2em;
+	padding: 0;
+}
+
+/* ------------------------------------------------------------ */
+
+.paste-preview-link {
+	text-decoration: none;
+}
+
+.paste-preview:hover {
+	background-color: #ddf;
+}
+
+.paste-preview { cursor: pointer; cursor: hand;}
+.paste-preview * { cursor: pointer; cursor: hand;}
+
+.paste-preview {
+	padding: 1em;
+	display: block;
+	background-color: white;
+	border: 1px solid #999;
+	height: 5em;
+	overflow: hidden;
+	margin-right: 6em;
+}
+
+.paste-preview .language {
+	display: block;
+	color: #888;
+	position: relative;
+	width: 50px;
+	height: 70px;
+}
+
+.paste-preview .meta {
+	color: #888;
+	float: right;
+}
+
+.paste-preview .text {
+	display: block;
+	position: relative;
+	left: 60px;
+	height: 70px;
+	top: -70px;
+	overflow: hidden;
+	font-family: Consolas, "Andale Mono", "Neep Alt", Neep, monospace;
+}
+
+/* ------------------------------------------------------------ */
+
+.paste {
+	margin-right: 6em;
+}
+
+.paste .highlight {
+
+	background-color: white;
+	border: 1px solid #999;
+	padding: 10px;
+}
+
+.paste .language {
+	border-left: 1px solid #999;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.paste .meta {
+	display: block;
+	background-color: white;
+	border: 1px solid #999;
+	color: #888;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+/* ------------------------------------------------------------ */
+
+.paste .body .meta {
+	background-color: red;
+}
+
+body.recent a.recent {
+	display: none;
+}
+
+body.new a.new {
+	display: none;
+}
+
+div.language {
+	float: left;
+	padding: 2px;
+}
+
+div.language:hover {
+	background-color: #ccf;
+}
+
+select.language {
+	margin: 2px;
+}
+
+.clearing {
+	clear: both;
+	height: 0.5em;
+}
+
+.language-radio {
+	float: left;
+	margin-right: 0.5em;
+}
+
+.language-radio:hover {
+	background-color: white;
+}
+
+.language-selection {
+	margin-bottom: 0.5em;
+}
