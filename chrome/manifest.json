@@ -1,0 +1,11 @@
+{
+  "name": "Prorogue",
+  "version": "0.1",
+  "description": "Save URLs for later.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "http://hs-prorogue.appspot.com/"
+  ]
+}
