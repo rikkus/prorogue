@@ -7,7 +7,11 @@ import prorogue
 from prorogue import handlers
 
 application = webapp.WSGIApplication(
-	[('/', prorogue.handlers.List)],
+	[
+		('/', prorogue.handlers.List),
+		('/add', prorogue.handlers.Add),
+		('/save', prorogue.handlers.Save)
+	],
 	debug=True
 )
 

@@ -11,7 +11,8 @@
 		</div>
 		
 		<?py for item in items: ?>
-			<a href="#{item.url}">#{item.url}</a><br/>
+			<a id="item-#{item.key().id()}" href="#{item.url}"
+>#{item.url if item.description == '' else item.description}</a><br/>
 		<?py #endfor ?>
 	</body>
 </html>
