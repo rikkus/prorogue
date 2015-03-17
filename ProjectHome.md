@@ -1,0 +1,1 @@
+Designed as an alternative to closed source services such as [Instapaper](http://www.instapaper.com) and [Read it Later](http://readitlaterlist.com).
